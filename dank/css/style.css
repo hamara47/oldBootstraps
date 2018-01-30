@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+	background: url('../images/bg.png') no-repeat center center fixed;
+	background-color: black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+
+
+/*--Removes all interaction between the object and the cursor--*/
+*.unselectable {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	cursor: default;
+}
+
+.banner {
+	background-image: url('../images/bm.png');
+	background-size:281px 261px;
+	width: 281px;
+	height: 261px;
+	margin: 50px auto;
+	position: relative;
+	padding: 10px;
+	position: relative;
+	cursor: default;
+}
+
+#page-wrap {
+	width: 400px;
+	margin: 50px auto;
+	position: relative;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0 0 20px #C0C0C0;
+}
+
+p {
+	font:17px/2 "Alegreya Sans", sans-serif;
+	margin: 0 0 30px 0;
+	text-indent: 40px;
+}
+
+#sidebar {
+	position: fixed;
+	left: 10px;
+	top: 30%;
+}
+#sidebar a {
+	font: 1.8em/1 "Amatic SC", cursive;
+	line-height: 150%;
+	text-decoration: none;
+	display: block;
+}
+
+.browse {
+	transition: color 0.5s ease;
+	color: white;
+}
+
+.browse:hover {
+	color: gray;
+}
